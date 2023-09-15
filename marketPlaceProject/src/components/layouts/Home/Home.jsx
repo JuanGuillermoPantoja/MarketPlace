@@ -1,10 +1,10 @@
 import React from 'react'
-import { Header } from '../../Header/Header'
+import { Products } from '../../Products/Products'
 
 export const Home = () => {
   return (
     <>
-     <Header />
+     <Products />
     </>
   )
 }

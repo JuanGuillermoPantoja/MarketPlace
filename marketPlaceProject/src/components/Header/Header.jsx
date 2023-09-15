@@ -20,7 +20,7 @@ export const Header = ({selectedProduct}) => {
     <>
       <header className='h-32 bg-[#f8fab4] w-full flex justify-center'>
           <nav className='flex h-full w-11/12 items-center justify-between'>
-            <NavLink className='p-0' to='/'><img className='w-32' src={Logo} alt="LogoMarketPlace" /></NavLink>
+            <NavLink className='p-0' to='/products'><img className='w-32' src={Logo} alt="LogoMarketPlace" /></NavLink>
             <ul className='flex justify-around items-center text-[#262730] w-1/5'>
               <li><NavLink to='/products'>Products</NavLink></li>
               <li className='relative'>
